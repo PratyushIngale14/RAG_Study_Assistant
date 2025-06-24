@@ -4,7 +4,7 @@ sentence-transformers==2.6.1
 pypdf2==3.0.1
 python-docx==1.1.0
 transformers==4.38.2
-faiss-cpu==1.7.4
+chromadb==0.4.24  # Using Chroma instead of FAISS
 duckduckgo-search==3.9.6
 
 # Explicit CPU-only PyTorch (MUST be last line)
