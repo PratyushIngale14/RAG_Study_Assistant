@@ -5,6 +5,8 @@ from langchain.vectorstores import FAISS  # Changed from Chroma
 from langchain.document_loaders import PyPDFLoader, Docx2txtLoader
 from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer
 import torch
+from langchain.document_loaders import PyPDFLoader, Docx2txtLoader
+
 
 class StudyRAGSystem:
     def __init__(self):
