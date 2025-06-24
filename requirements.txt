@@ -3,9 +3,12 @@ langchain==0.1.16
 sentence-transformers==2.6.1
 pypdf2==3.0.1
 python-docx==1.1.0
-unstructured==0.12.2
+unstructured==0.17.2  # Updated version that supports Python 3.13
 transformers==4.38.2
-torch==2.2.1 --index-url https://download.pytorch.org/whl/cpu
-faiss-cpu==1.7.4  # Lightweight alternative to ChromaDB
+torch==2.2.1
+faiss-cpu==1.7.4
 duckduckgo-search==3.9.6
 accelerate==0.27.2
+
+# Explicitly specify CPU-only torch
+--extra-index-url https://download.pytorch.org/whl/cpu
