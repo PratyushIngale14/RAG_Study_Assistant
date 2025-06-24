@@ -1,7 +1,7 @@
 import os
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import FAISS  # Changed from Chroma
+from langchain.vectorstores import Chroma
 from langchain.document_loaders import PyPDFLoader, Docx2txtLoader
 from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer
 import torch
